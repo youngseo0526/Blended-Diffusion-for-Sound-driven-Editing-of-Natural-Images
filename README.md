@@ -19,7 +19,7 @@ $ pip3 install ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu1
 ```
 
 2. Create a `checkpoints` directory and download the pretrained diffusion model from [here](https://drive.google.com/file/d/145NpznbcwMeoX-v8U-bUpu8eXILh3n7Z/view?usp=sharing) to this folder.
-3. Create a `pretrained_moels` directory and download the pretrained diffusion model from [here](https://download.pytorch.org/models/resnet18-5c106cde.pth)
+3. Create a `pretrained_moels` directory and download the pretrained diffusion model from [here](https://download.pytorch.org/models/resnet18-5c106cde.pth) to this folder.
 
 ## Image generation
 An example of text-driven multiple synthesis results:
