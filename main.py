@@ -1,4 +1,4 @@
-from optimization.image_editor_copy import ImageEditor
+from optimization.image_editor_ys import ImageEditor
 #from optimization.image_editor import ImageEditor
 from optimization.arguments import get_arguments
 
