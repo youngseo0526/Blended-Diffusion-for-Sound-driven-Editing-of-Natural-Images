@@ -16,7 +16,7 @@ Original [soundclip code](https://github.com/kuai-lab/sound-guided-semantic-imag
 $ conda create --name blended-diffusion python=3.9
 $ conda activate blended-diffusion
 $ pip3 install timm ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
-pip3 install git+https://github.com/openai/CLIP.git
+$ pip3 install git+https://github.com/openai/CLIP.git
 ```
 
 2. Create a `checkpoints` directory and download the pretrained diffusion model from [here](https://drive.google.com/file/d/145NpznbcwMeoX-v8U-bUpu8eXILh3n7Z/view?usp=sharing) to this folder.
