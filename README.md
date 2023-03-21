@@ -15,11 +15,12 @@ Original [soundclip code](https://github.com/kuai-lab/sound-guided-semantic-imag
 ```bash
 $ conda create --name blended-diffusion python=3.9
 $ conda activate blended-diffusion
-$ pip3 install ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+$ pip3 install timm ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+$ pip3 install git+https://github.com/openai/CLIP.git
 ```
 
 2. Create a `checkpoints` directory and download the pretrained diffusion model from [here](https://drive.google.com/file/d/145NpznbcwMeoX-v8U-bUpu8eXILh3n7Z/view?usp=sharing) to this folder.
-3. Create a `pretrained_moels` directory and download the pretrained diffusion model from [here](https://download.pytorch.org/models/resnet18-5c106cde.pth) to this folder. (or another [Resnet models](https://pytorch.org/vision/0.8/_modules/torchvision/models/resnet.html))
+3. Create a `pretrained_models` directory and download the pretrained diffusion model from [here](https://download.pytorch.org/models/resnet18-5c106cde.pth) to this folder. (or another [Resnet models](https://pytorch.org/vision/0.8/_modules/torchvision/models/resnet.html))
 
 ## Image generation
 An example of text-driven multiple synthesis results:
