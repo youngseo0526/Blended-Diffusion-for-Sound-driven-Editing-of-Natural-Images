@@ -19,8 +19,7 @@ $ pip3 install timm ftfy regex matplotlib lpips kornia opencv-python torch==1.9.
 $ pip3 install git+https://github.com/openai/CLIP.git
 ```
 
-2. Create a `checkpoints` directory and download the pretrained diffusion model from [here](https://drive.google.com/file/d/145NpznbcwMeoX-v8U-bUpu8eXILh3n7Z/view?usp=sharing) to this folder.
-3. Create a `pretrained_models` directory and download the pretrained diffusion model from [here](https://download.pytorch.org/models/resnet18-5c106cde.pth) to this folder. (or another [Resnet models](https://pytorch.org/vision/0.8/_modules/torchvision/models/resnet.html))
+2. Download the pretrained diffusion model from [here](https://drive.google.com/file/d/145NpznbcwMeoX-v8U-bUpu8eXILh3n7Z/view?usp=sharing) to this folder.
 
 ## Image generation
 An example of text-driven multiple synthesis results:
