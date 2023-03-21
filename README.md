@@ -26,7 +26,7 @@ $ pip3 install git+https://github.com/openai/CLIP.git
 An example of text-driven multiple synthesis results:
 
 ```bash
-$ python main.py -a "audio_path" -i "input_example/img.png" --mask "input_example/mask.png" --output_path "output"
+$ python main.py -a "audio_example/bird tweeting.wav" -i "input_example/butterfly.png" --mask "input_example/butterfly_mask.png" --output_path "output"
 ```
 
 The generation results will be saved in `output/ranked` folder, ordered by CLIP similarity rank. In order to get the best results, please generate a large number of results (at least 64) and take the best ones.
