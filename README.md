@@ -15,7 +15,7 @@ Original [soundclip code](https://github.com/kuai-lab/sound-guided-semantic-imag
 ```bash
 $ conda create --name blended-diffusion python=3.9
 $ conda activate blended-diffusion
-$ pip3 install timm ftfy regex matplotlib lpips kornia opencv-python torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
+$ pip3 install timm ftfy regex matplotlib lpips kornia opencv-python torch==2.0.1+cu117 torchvision==0.15.2+cu117 -f https://download.pytorch.org/whl/torch_stable.html
 $ pip3 install git+https://github.com/openai/CLIP.git
 ```
 
